@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/zapsign-mcp",
+  "title": "ZapSign",
+  "description": "ZapSign electronic document signing via the official API: create documents for signature (from PDF, ",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/zapsign-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_zapsign"
+    }
+  ]
+}
